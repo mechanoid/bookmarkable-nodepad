@@ -4,6 +4,8 @@ It is based on the idea of Jose Jesus Perez Aguinaga (see https://coderwall.com/
 This repository is trying to provide a build setup for extending the behaviour a bit (see feature list below) and to
 provide a convenient way to download, and bookmark the stuff.
 
+![Example Image](https://github.com/mechanoid/bookmarkable-nodepad/blob/main/images/example.png?raw=true)
+
 ## Features 1.0.x
 
 - text is copied to a `div` element, so that the output can be saved (textarea would be invisible)
