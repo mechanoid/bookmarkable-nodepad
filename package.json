@@ -1,6 +1,7 @@
 {
   "name": "bookmarkeble-notepad",
   "version": "0.0.1",
+  "engines" : { "node" : ">=14.0" },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,6 +16,12 @@
   "bin": {
     "bookmarkeble-notepad": "bin/bookmarkeble-notepad.js"
   },
+  "files": [
+    "bin/bookmarkeble-notepad.js",
+    "dist/bookmarkeble-notepad.bookmarklet",
+    "README.md",
+    "LICENSE"
+  ],
   "devDependencies": {
     "csso-cli": "^3.0.0",
     "eslint": "^7.12.1",
@@ -28,5 +35,8 @@
     "terser": "^5.3.8"
   },
   "type": "module",
-  "module": "index.js"
+  "module": "index.js",
+  "dependencies": {
+    "better-opn": "^2.1.1"
+  }
 }
