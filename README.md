@@ -1,4 +1,8 @@
 A bookmarkable notepad is an URI that you can save as a bookmark and start taking notes offline after a simple click.
+It is based on the idea of Jose Jesus Perez Aguinaga (see https://coderwall.com/p/lhsrcq/one-line-browser-notepad).
+
+This repository is trying to provide a build setup for extending the behaviour a bit (see feature list below) and to
+provide a convenient way to download, and bookmark the stuff.
 
 ## Features
 
