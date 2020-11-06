@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preminify-css": "rm -rf tmp && mkdir tmp",
+    "minify-css": "csso -i bookmarklet.css -o tmp/bookmarklet.css",
+    "minify-js": "terser bookmarklet.js -cm -o tmp/bookmarklet.js",
+    "prebuild": "",
+    "build": "npm run minify-css && npm run minify-js && ./bin/bookmarkeble-notepad.js"
   },
   "author": "Falk Hoppe <falkhoppe81@gmail.com>",
   "license": "MIT",
@@ -12,12 +16,16 @@
     "bookmarkeble-notepad": "bin/bookmarkeble-notepad.js"
   },
   "devDependencies": {
+    "csso-cli": "^3.0.0",
     "eslint": "^7.12.1",
     "eslint-config-standard": "^16.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.2"
+    "eslint-plugin-standard": "^4.0.2",
+    "fs-extra": "^9.0.1",
+    "pug": "^3.0.0",
+    "terser": "^5.3.8"
   },
   "type": "module",
   "module": "index.js"
