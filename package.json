@@ -1,7 +1,9 @@
 {
   "name": "bookmarkeble-notepad",
-  "version": "0.0.1",
-  "engines" : { "node" : ">=14.0" },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
