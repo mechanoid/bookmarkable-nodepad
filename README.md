@@ -4,7 +4,7 @@ It is based on the idea of Jose Jesus Perez Aguinaga (see https://coderwall.com/
 This repository is trying to provide a build setup for extending the behaviour a bit (see feature list below) and to
 provide a convenient way to download, and bookmark the stuff.
 
-## Features
+## Features 1.x
 
 - text is copied to a `div` element, so that the output can be saved (textarea would be invisible)
 - the `textarea` element is hidden for printing (a.k.a saving as pdf)
