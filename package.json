@@ -10,7 +10,7 @@
     "preminify-css": "rm -rf tmp && mkdir tmp",
     "minify-css": "csso -i bookmarklet.css -o tmp/bookmarklet.css",
     "minify-js": "terser bookmarklet.js -cm -o tmp/bookmarklet.js",
-    "prebuild": "",
+    "prebuild": "rm -rf dist && mkdir dist",
     "build": "npm run minify-css && npm run minify-js && ./bin/build-bookmarkeble-notepad.js",
     "prepare": "npm run build"
   },
