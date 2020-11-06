@@ -12,8 +12,12 @@ provide a convenient way to download, and bookmark the stuff.
 ## Usage:
 
 ```
-npm i -g bookmarkable-notepad
+$ npm i -g bookmarkable-notepad
+$ bookmarkable-notepad
 
+# Copy the following line to your browsers address bar, and save it as bookmark:
+# ---
+# data:text/html;charset=utf-8,...
 ```
 
 ## Development
