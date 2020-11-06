@@ -11,7 +11,8 @@
     "minify-css": "csso -i bookmarklet.css -o tmp/bookmarklet.css",
     "minify-js": "terser bookmarklet.js -cm -o tmp/bookmarklet.js",
     "prebuild": "",
-    "build": "npm run minify-css && npm run minify-js && ./bin/bookmarkable-notepad.js"
+    "build": "npm run minify-css && npm run minify-js && ./bin/build-bookmarkeble-notepad.js",
+    "prepare": "npm run build"
   },
   "author": "Falk Hoppe <falkhoppe81@gmail.com>",
   "license": "MIT",
