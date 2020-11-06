@@ -11,16 +11,16 @@
     "minify-css": "csso -i bookmarklet.css -o tmp/bookmarklet.css",
     "minify-js": "terser bookmarklet.js -cm -o tmp/bookmarklet.js",
     "prebuild": "",
-    "build": "npm run minify-css && npm run minify-js && ./bin/bookmarkeble-notepad.js"
+    "build": "npm run minify-css && npm run minify-js && ./bin/bookmarkable-notepad.js"
   },
   "author": "Falk Hoppe <falkhoppe81@gmail.com>",
   "license": "MIT",
   "bin": {
-    "bookmarkeble-notepad": "bin/bookmarkeble-notepad.js"
+    "bookmarkable-notepad": "bin/bookmarkable-notepad.js"
   },
   "files": [
-    "bin/bookmarkeble-notepad.js",
-    "dist/bookmarkeble-notepad.bookmarklet",
+    "bin/bookmarkable-notepad.js",
+    "dist/*",
     "README.md",
     "LICENSE"
   ],

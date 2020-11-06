@@ -9,6 +9,13 @@ provide a convenient way to download, and bookmark the stuff.
 - text is copied to a `div` element, so that the output can be saved (textarea would be invisible)
 - the `textarea` element is hidden for printing (a.k.a saving as pdf)
 
+## Usage:
+
+```
+npm i -g bookmarkable-notepad
+
+```
+
 ## Development
 
 ### Build
@@ -17,5 +24,5 @@ provide a convenient way to download, and bookmark the stuff.
 npm run build
 # => minify-css
 # => minify-js
-# => created dist/bookmarkeble-notepad.bookmarklet
+# => created dist/bookmarkable-notepad.bookmarklet
 ```
